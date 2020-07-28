@@ -1,0 +1,6 @@
+hdfs dfs -mkdir "/user/jovyan/assignment1"
+hdfs dfs -put test.txt "/user/jovyan/assignment1"
+hdfs dfs -ls "/user/jovyan/assignment1/test.txt"
+hdfs dfs -chmod o-r "/user/jovyan/assignment1/test.txt"
+hdfs dfs -cat "/user/jovyan/assignment1/test.txt" | head -n 10
+hdfs dfs -mv "/user/jovyan/assignment1/test.txt" "/user/jovyan/assignment1/test2.txt"

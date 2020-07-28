@@ -1,0 +1,5 @@
+tmux a -t my_docker
+
+tmux new -s <session>
+tmux a -t <sesscion>
+tmus ls

@@ -1,0 +1,2 @@
+hdfs fsck  /data/wiki/en_articles_part/articles-part -blocks -locations
+hdfs fsck -blockId blk_1073741825
